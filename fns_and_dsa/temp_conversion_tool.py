@@ -5,7 +5,7 @@ temp = input("Enter the temperature to convert: ")
 
 try:
     temperature = float(temp)  # use float to allow decimals
-    print("Valid temperature value!")
+    #print("Valid temperature value!")
 except ValueError:
     print("Invalid temperature. Please enter a numeric value")
     exit()
@@ -13,7 +13,7 @@ except ValueError:
 temperature_type = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
 
 def convert_to_celsius(fahrenheit):
-    result = FAHRENHEIT_TO_CELSIUS_FACTOR * (fahrenheit - 32)
+    result = (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
     print(f"{temperature}°F is {result}°C") 
     return result
 
