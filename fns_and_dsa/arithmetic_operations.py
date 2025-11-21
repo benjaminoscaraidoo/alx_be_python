@@ -13,10 +13,10 @@ def perform_operation(num1, num2, operation):
             return result
 
         case op if operation == 'divide':
-            if num2 == 0:
-                result =  "Cannot divide by Zero"
-                return result
-            else:
+            if num2 != 0:
                 result = num1 / num2
+                return result
+            elif num2 == 0:
+                result =  "Cannot divide by Zero"
                 return result
 
