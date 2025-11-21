@@ -8,7 +8,7 @@ try:
     temperature = float(temp)  # use float to allow decimals
     #print("Valid temperature value!")
 except ValueError:
-    print("Invalid temperature. Please enter a numeric value")
+    print("Invalid temperature. Please enter a numeric value.")
     exit()
 
 temperature_type = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
