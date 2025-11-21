@@ -19,9 +19,9 @@ def convert_to_celsius(fahrenheit):
 
 
 def convert_to_fahrenheit(celsius):
-    result = CELSIUS_TO_FAHRENHEIT_FACTOR * celsius + 32
-    print(f"{temperature}°C is {result}°F")
-    return result
+    fahrenheit = CELSIUS_TO_FAHRENHEIT_FACTOR * celsius + 32
+    print(f"{temperature}°C is {fahrenheit}°F")
+    return fahrenheit
 
 match temperature_type:
     case temp if temperature_type.upper() == 'F':
