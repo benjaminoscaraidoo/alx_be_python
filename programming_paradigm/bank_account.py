@@ -18,6 +18,6 @@ class BankAccount:
         #acc_bal = {self.account_balance}
         #float_set = set(map(float, self.account_balance))
         #print(f" Current Balance: tpye is  {type(acc_bal)}")
-        print(f" Current Balance: ${self.account_balance}.00")
+        print(f"Current Balance: ${self.account_balance}.00")
         #print(f" Current Balance: ${self.account_balance}")
     
